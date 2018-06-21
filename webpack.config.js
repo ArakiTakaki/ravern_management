@@ -3,9 +3,9 @@ var webpack = require("webpack")
 
 module.exports = {
     mode: 'development',
-    entry: "./src/index.js",
+    entry: "./frontend/main.js",
     output: {
-        path: path.join(__dirname, "dist"),
+        path: path.join(__dirname, "/app/assets/javascripts"),
         filename: "bundle.js"
     },
     module: {
