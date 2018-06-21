@@ -1,0 +1,2 @@
+class Fooed < ApplicationRecord
+end

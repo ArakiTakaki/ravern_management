@@ -1,0 +1,2 @@
+class ClerkController < ApplicationController
+end

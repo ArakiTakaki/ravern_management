@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @fooed.name %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @fooed.content %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @fooed.category_id %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @fooed.price %>
+</p>
+
+<p>
+  <strong>Course:</strong>
+  <%= @fooed.course_id %>
+</p>
+
+<p>
+  <strong>Image:</strong>
+  <%= @fooed.image %>
+</p>
+
+<%= link_to 'Edit', edit_fooed_path(@fooed) %> |
+<%= link_to 'Back', fooeds_path %>

@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Table number:</strong>
+  <%= @client.table_number %>
+</p>
+
+<p>
+  <strong>Course:</strong>
+  <%= @client.Course %>
+</p>
+
+<p>
+  <strong>Client count:</strong>
+  <%= @client.client_count %>
+</p>
+
+<p>
+  <strong>Check in:</strong>
+  <%= @client.check_in %>
+</p>
+
+<p>
+  <strong>Check out:</strong>
+  <%= @client.check_out %>
+</p>
+
+<%= link_to 'Edit', edit_client_path(@client) %> |
+<%= link_to 'Back', clients_path %>

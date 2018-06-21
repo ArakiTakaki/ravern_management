@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Client:</strong>
+  <%= @done_food.Client %>
+</p>
+
+<p>
+  <strong>Food:</strong>
+  <%= @done_food.Food %>
+</p>
+
+<p>
+  <strong>Count:</strong>
+  <%= @done_food.count %>
+</p>
+
+<%= link_to 'Edit', edit_done_food_path(@done_food) %> |
+<%= link_to 'Back', done_foods_path %>

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Client: one
+  Food: one
+  count: 1
+
+two:
+  Client: two
+  Food: two
+  count: 1
